@@ -1,0 +1,13 @@
+Primera problematica:
+
+* Los nombres de las tablas generalmente se ponen sin espacios. En caso de palabras compuestas se pueden separar con un _
+
+* Pueden usar el tipo de dato TEXT para no quedar restringidos a una cantidad de caracteres poniendo varchar(20)
+
+* En la tabla tarjeta habría que agregar NOT NULL en los campos ya que no se pueden tener tarjetas sin CVV por ejemplo
+
+* Falta resolver el punto: Agregar la entidad direcciones... de la problematica 1
+
+* UPDATE cuenta 
+
+SET "Tipo de cuenta"=((abs(random() % 3)))+1; Lo podrían haber resuelto con el www.generatedata.com haciendo 500 UPDATES.
